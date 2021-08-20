@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 // Serve static files
-app.use(express.static(__dirname));
+app.use(express.static(__dirname + '/dist/cartas'));
 
 // Send all requests to index.html
 app.get('/*', function(req, res) {
