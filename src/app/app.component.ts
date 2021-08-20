@@ -62,7 +62,7 @@ export class AppComponent {
       doc.addPage();
     }
 
-    doc.save('hello-world.pdf');
+    doc.save('cartas.pdf');
 
   }
 
