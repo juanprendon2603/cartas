@@ -43,8 +43,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "4mb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "500kb",
+                  "maximumError": "4mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -89,7 +89,6 @@
             "browserTarget": "cartas:build"
           }
         },
-        
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
