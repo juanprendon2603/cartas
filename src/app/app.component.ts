@@ -44,7 +44,7 @@ export class AppComponent {
         margin: { top: 130 },
         didDrawCell: (data4) => { },
       });
-      doc.text('Por favor emitir factura por concepto de ajuste de Precio Liquidación por valor de '+`${dato.TOTAL.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,')}`, 12, 170);
+      doc.text('Por favor emitir factura por concepto de ajuste de Precio Liquidación por valor de $'+`${dato.TOTAL.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,')}     `, 12, 170);
       doc.text('Se cruzara como incentivo de transporte al pedido No. '+`${dato.PEDIDO}`, 12, 180);
       doc.text('Atentamente,', 12, 215);
       doc.text('Hector Fabio Esquivel', 12, 235);
